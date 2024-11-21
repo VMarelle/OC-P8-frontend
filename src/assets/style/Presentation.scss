@@ -14,6 +14,10 @@
 
 @media all and (max-width: 768px) {
   .presentation-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
     h2 {
       text-align: center;
     }
@@ -24,8 +28,31 @@
     h3 {
       text-align: center;
     }
-    p {
+    h4 {
       text-align: center;
+      margin-bottom: 7.161vw;
+    }
+    .p1 {
+      text-align: start;
+      width: 75%;
+      margin-left: 3.906vw;
+      margin-right: 3.906vw;
+      margin-bottom: 10.417vw;
+    }
+    .p2 {
+      text-align: end;
+      width: 75%;
+      padding-left: 16.927vw;
+      margin-left: 3.906vw;
+      margin-right: 3.906vw;
+      margin-bottom: 10.417vw;
+    }
+    .p3 {
+      text-align: start;
+      width: 75%;
+      margin-left: 3.906vw;
+      margin-right: 3.906vw;
+      margin-bottom: 10.417vw;
     }
   }
 }

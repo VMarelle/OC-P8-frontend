@@ -6,7 +6,7 @@ const Projects = () => {
 
   // Récupérer les projets depuis l'API
   useEffect(() => {
-    fetch("http://localhost:4000/api/projects")
+    fetch("https://backend-beta-silk.vercel.app/api/projects")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) =>

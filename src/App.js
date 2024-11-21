@@ -9,13 +9,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-
-      <section className="section-info">
-        <Presentation />
-        <Skills />
-      </section>
-      <section className="Projects">
-        <Projects />
+      <section className="core">
+        <section className="section-info">
+          <Presentation />
+          <Skills />
+        </section>
+        <section className="Projects">
+          <Projects />
+        </section>
       </section>
       <Footer />
     </div>

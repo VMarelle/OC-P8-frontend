@@ -10,17 +10,16 @@ function Presentation() {
       </div>
       <h3>Victor Marelle</h3>
       <h4>28 ans</h4>
-      <p>
+      <p className="p1">
         Étudiant en développement web en reconversion, j’ai acquis les
         compétences nécessaires pour concevoir et coder des applications
         modernes, intuitives et performantes..
       </p>
-      <p>
-        Je suis curieux(se), créatif(ve), et toujours en quête d’apprentissage
-        pour perfectionner mes compétences et relever de nouveaux défis.
+      <p className="p2">
+        Je suis curieux, créatif, et toujours en quête d’apprentissage pour
+        perfectionner mes compétences et relever de nouveaux défis.
       </p>
-      <p>
-        {" "}
+      <p className="p3">
         N’hésitez pas à explorer mes projets ci-dessous et à me contacter si
         vous souhaitez collaborer ou discuter davantage de mon travail !
       </p>

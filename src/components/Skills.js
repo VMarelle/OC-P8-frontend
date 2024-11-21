@@ -5,7 +5,7 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/skills")
+    fetch("https://backend-beta-silk.vercel.app/api/skills")
       .then((response) => response.json())
       .then((data) => setSkills(data))
       .catch((error) =>
