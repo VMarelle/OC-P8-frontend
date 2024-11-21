@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #725ac1;
+  color: white;
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-top: 16px;
+    margin: 0;
+  }
+  nav a {
+    color: white;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+    padding: 2.604vw;
+    margin-top: 5.208vw;
+  }
+}
+@media all and (max-width: 768px) {
+}

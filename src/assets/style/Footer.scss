@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #8d86c9;
+  padding-top: 1.042vw;
+  h3 {
+    margin-left: 5.208vw;
+  }
+  a {
+    color: #242038;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    margin-left: 5.208vw;
+    gap: 0.521vw;
+  }
+  img {
+    width: 3.333vw;
+  }
+}
+@media all and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h3 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}

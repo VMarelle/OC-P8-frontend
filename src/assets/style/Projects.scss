@@ -1,0 +1,47 @@
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.604vw;
+  margin-bottom: 2.604vw;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 0.781vw;
+  border-radius: 8px;
+  width: 26.042vw;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.26vw;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  p {
+    margin: 0.521vw;
+  }
+  a {
+    color: #725ac1;
+    margin-bottom: 0.521vw;
+  }
+}
+@media all and (max-width: 768px) {
+  .project-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.51vw;
+    margin-bottom: 6.51vw;
+  }
+  .project {
+    width: 80%;
+  }
+}
