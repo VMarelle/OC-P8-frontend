@@ -9,11 +9,20 @@ function Presentation() {
         <img src={pp} alt="PP"></img>
       </div>
       <h3>Victor Marelle</h3>
-      <p>28 ans</p>
+      <h4>28 ans</h4>
       <p>
-        Étudiant en développement web suite à une reconversion. Durant ma
-        formation j'ai appris à concevoir et réaliser des sites web et à les
-        mettre en ligne.
+        Étudiant en développement web en reconversion, j’ai acquis les
+        compétences nécessaires pour concevoir et coder des applications
+        modernes, intuitives et performantes..
+      </p>
+      <p>
+        Je suis curieux(se), créatif(ve), et toujours en quête d’apprentissage
+        pour perfectionner mes compétences et relever de nouveaux défis.
+      </p>
+      <p>
+        {" "}
+        N’hésitez pas à explorer mes projets ci-dessous et à me contacter si
+        vous souhaitez collaborer ou discuter davantage de mon travail !
       </p>
     </div>
   );
