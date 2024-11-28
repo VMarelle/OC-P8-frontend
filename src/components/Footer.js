@@ -12,7 +12,8 @@ function Footer() {
       </p>
       <p>
         {" "}
-        <img src={phone} alt="icone tel" /> +33 6.61.90.56.96
+        <img src={phone} alt="icone tel" />{" "}
+        <a href="tel:+33661905696">+33 6.61.90.56.96</a>
       </p>
       <p>
         icônes par :{" "}
